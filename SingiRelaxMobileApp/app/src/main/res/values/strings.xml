@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SingiRelax</string>
+    <string name="app_description">Aplikacija za lokalizovanu pretragu i preporuku mesta za relaksaciju studentima Univerziteta Singidunum.</string>
+    <string name="events">Događaji</string>
+    <string name="notifications">Akcije</string>
+    <string name="profile">Profil</string>
+    <string name="extras">Dodatne opcije</string>
+    <string name="logout">Odjavite se</string>
+    <string name="share">Podelite</string>
+    <string name="send">Pošaljite</string>
+    <string name="nav_created_by">Napravio Marko Milić 2016202005</string>
+
+    <string name="navigation_drawer_open">Otvara se navigacija</string>
+    <string name="navigation_drawer_close">Zatvara se navigacija</string>
+
+    <string name="login_email">Unesite Vaš email: </string>
+    <string name="login_password">Unesite Vašu lozinku: </string>
+    <string name="button_login">Ulogujte se</string>
+    <string name="button_register_user">Nemate nalog? Napravite ga</string>
+    <string name="error">Unesite Vaš email i lozinku.</string>
+    <string name="login_error">Netačan email ili lozinka.</string>
+
+    <string name="edit">Izmenite</string>
+
+    <string name="event_info">Dodatne informacije</string>
+    <string name="event_filter">Pronađi</string>
+
+    <string name="signup_email">Unesite Vaš email: </string>
+    <string name="signup_password">Unesite Vašu lozinku: </string>
+    <string name="signup_firstName">Unesite Vaše ime: </string>
+    <string name="signup_lastName">Unesite Vaše prezime: </string>
+    <string name="signup_phone">Unesite Vaš broj telefona: </string>
+    <string name="signup_address">Unesite Vašu adresu: </string>
+    <string name="signup_interest">Unesite Vaša interesovanja: </string>
+    <string name="button_signup">Registrujte se</string>
+    <string name="error_signup">Unesite sve podatke</string>
+    <string name="error_match_signup">Unesite pravilne podatke</string>
+    <string name="error_data_signup">Greška prilikom slanja podataka</string>
+
+    <string name="action_settings">Podešavanja</string>
+
+    <string name="event_apply">Prijavite se</string>
+    <string name="event_apply_error">Neuspešna prijava</string>
+    <string name="event_apply_success">Uspešna prijava</string>
+    <string name="event_apply_already">PRIJAVILI STE SE</string>
+
+    <string name="edit_profile">Izmena profila</string>
+    <string name="edit_profile_email">Unesite Vaš novi email: </string>
+    <string name="edit_profile_password">Unesite Vašu novu lozinku: </string>
+    <string name="edit_profile_firstName">Unesite Vaše novo profil ime: </string>
+    <string name="edit_profile_lastName">Unesite Vaše novo profil prezime: </string>
+    <string name="edit_profile_phone">Unesite Vaš nov broj telefona: </string>
+    <string name="edit_profile_address">Unesite Vašu novu adresu: </string>
+    <string name="edit_profile_interest">Unesite Vaša nova interesovanja: </string>
+    <string name="error_edit_profile">Unesite neke izmene\nIli tačnog formata</string>
+    <string name="error_data_edit_profile">Greška prilikom slanja podataka</string>
+
+</resources>
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[11]" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginBottom="5sp"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/event_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginBottom="5sp"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/event_dateFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginBottom="5sp"
+                android:gravity="start" />
+
+            <Button
+                android:id="@+id/event_more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/event_info"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

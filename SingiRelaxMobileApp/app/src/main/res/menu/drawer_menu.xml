@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_events"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+    </group>
+
+    <item android:title="@string/extras">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+    <item android:title="@string/logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>
